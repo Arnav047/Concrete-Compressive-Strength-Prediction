@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<style>
+
+*{
+    margin: 5px 0px;
+    overflow: hidden;
+}
+body
+{
+display: flex;
+text-align: center;
+justify-content: center;
+background-image: url("data:image/jpeg;base64,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");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+.forminput{
+
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.login h1
+{
+
+}
+.formaction
+{
+    display: inline-block;
+}
+</style>
+</head>
+<body>
+    <div class="login">
+        <h1>Concrete cement strength Prediction</h1>
+         <!-- Main Input For Receiving Query to our ML -->
+        <form class="formaction" action="{{ url_for('predict')}}"method="post">
+            <input class="forminput" type="text" name="cement" placeholder="cement" required="required" />
+            <br>
+            <input class="forminput" type="text" name="blast_furnace_slag" placeholder="blast_furnace_slag" required="required" />
+            <br>
+            <input class="forminput" type="text" name="fly_ash" placeholder="fly_ash" required="required" />
+            <br>
+            <input class="forminput" type="text" name="water" placeholder="water" required="required" />
+            <br>
+            <input class="forminput" type="text" name="superplasticizer" placeholder="superplasticizer" required="required" />
+            <br>
+            <input class="forminput" type="text" name="coarse_aggregate" placeholder="coarse_aggregate" required="required" />
+            <br>
+            <input class="forminput" type="text" name="fine_aggregate" placeholder="fine_aggregate" required="required" />
+            <br>
+            <input class="forminput" type="text" name="age" placeholder="age" required="required" />
+            <br>
+            <button type="submit" class="btn btn-primary btn-block btn-large forminput">Predict</button>
+        </form>
+       <br>
+       <br>
+       {{ prediction_text }}
+     </div>
+</body>
+</html>
